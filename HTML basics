@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Headind tags: heading 1 </h1>
+        <h2>Headind tags: heading 2 </h2>
+        <h3>Headind tags: heading 3 </h3>
+        <h4>Headind tags: heading 4 </h4>
+        <h5>Headind tags: heading 5 </h5>
+        <h6>Headind tags: heading 6 </h6>
+        <p> This is Para </p>
+        <a href="https://codegnan.com"> codegnan </a>
+        <img src="../photos/codegnan logo.jpeg" alt="codegnan logo"/>
+        <button> Click Me </button>
+        <hr/>
+        <div> division: Div is a block level element</div><br/><br/>
+        <spam> spam: span is a inline elememt and content background space </spam><br/><br/>
+        <header> Header is a semantic element </header><br/><br/>
+        <section> section is a body element </section><br/><br/>
+        <footer> footer is semantic element </footer><br/><br/>
+        <p> Lorem &nbsp;&nbsp;&nbsp; ipsum dolor sit, amet consectetur adipisicing elit. Nulla at earum ipsum voluptatem? Obcaecati provident consequatur laudantium odio ea in vero, numquam, ipsam est dolorem non a, natus illum optio!</p>
+    </div>
+</body>
+</html>

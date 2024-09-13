@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paytm APP</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        body{
+            margin:0px;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0.5% 2%;
+            position: sticky;
+            top: 0px;
+            background-color: rgb(153, 233, 242);
+        }
+        .navbar a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.1rem;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .navbar .signin{
+            background-color: #00baf2;
+            color: white;
+            width: 8%;
+            padding: 8px 0px 8px 5px ;
+            border-radius: 25%;
+            text-align: center;
+        }
+        .signin .fa-user{
+            background-color: #002970;
+            border-radius: 50%;
+        }
+        .signin:hover .fa-user{
+            background-color: #002970;
+        }
+        .recharge{
+            background-color:#00baf2;
+            color: white;
+            padding: 20px 5px;
+            font-family: sans-serif;
+        }
+        .recharge h1{
+            font-size: 2rem;
+        }
+        .recharge-links{
+            display:flex;
+            justify-content: space-between;
+            padding: 0% 5% 0% 1%;
+        }
+        .recharge a{
+            color: white;
+        }
+        .recharge-links img{
+            width: 60px;
+        }
+        .payments-container{
+            display:flex;
+            justify-content: space-between;
+            padding: 7% 0% 3% 5px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .payments{
+            width: 40%;
+        }
+        .payments img{
+            width: 10%;
+        }
+        .payments h1{
+            font-size: 3rem;
+        }
+        .payments p{
+            font-size: 1.4rem;
+        }
+        .payments a{
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+            padding: 15px 25px;
+        }
+        .payments a:hover{
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+        .payments i{
+            margin-left: 9px;
+        }
+        .payments-container .upi-payments{
+            width: 40%;
+        }
+        .payment-container img{
+            height: 20%;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+         <a href="">
+            <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg" alt="">
+         </a>
+         <a href="">Paytm for Consumers</a>
+         <a href="">Pytm for Business</a>
+         <a href="">Investor Realtions</a>
+         <a href="">Company</a>
+         <a href="">Career</a>
+         <a class="signin" href="">
+            <span>Signin</span>
+            <i class="fa-solid fa-user"></i>
+         </a>
+        </nav>
+        <section class="recharge">
+         <h1>Recharge ad Pay Bills</h1>
+        <div class="recharge-links">
+            <a href="">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png"
+                alt=""/>
+                <p>
+                    Recharge <br/>
+                    Prepaid <br/>
+                    Mobile
+                </p>
+            </a>
+            <a href="">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png"
+                alt=""/>
+                <p>
+                    Pay<br/>
+                    Electricity <br/>
+                    Bill
+                </p>
+            </a>
+            <a href="">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" alt="">
+                <p>
+                    Recharge <br/>
+                    DTH <br>
+                    Connection
+                </p>
+            </a>
+            <a href="">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" alt="">
+                <p>
+                    Gas <br/>
+                    Book <br/>
+                    Cylinder
+                </p>
+            </a>
+            <a href="">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png" alt="">
+                <p>
+                    BroadBand <br/>
+                    Pay <br/>
+                    LandLine
+                </p>
+            </a>
+        <a href="">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png" alt="">
+            <p>
+                Pay <br/>
+                Education <br/>
+                Fee
+            </p>
+        </a>
+        <a href="">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png" alt="">
+            <p>
+                All <br/>
+                Payment <br/>
+                Service
+            </p>
+        </a>
+        </div>
+        </section>
+
+        <div class="payments-container">
+            <div class="payments">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png" alt="">
+                <h1> India's Most Loved Payments App</h1>
+                <p>
+                    Reacharge & pay bills, book flights,movie tickets,invest in stocks and do a lot more.
+                </p>
+                <a href="">
+                    Download Paytm App 
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-google-play"></i>
+                </a>
+            </div>
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
